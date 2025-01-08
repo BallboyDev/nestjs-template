@@ -56,3 +56,13 @@ $ npm run test:cov
 ## Template List
 > main
 - base / practice branch
+
+
+
+
+## Database
+~~~bash
+# mariadb database
+$ docker run --detach -p 3306:3306 --name dev-mariadb --env MARIADB_ROOT_PASSWORD=1234  mariadb:latest
+
+~~~
