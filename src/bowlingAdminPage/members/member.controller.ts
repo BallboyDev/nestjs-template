@@ -1,7 +1,7 @@
 import { Controller, Get } from "@nestjs/common";
 import { MemberService } from "./member.service";
 
-@Controller('bowling')
+@Controller('member')
 export class MemberController {
     constructor(private readonly memberService: MemberService) { }
 
