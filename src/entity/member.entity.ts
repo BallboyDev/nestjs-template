@@ -7,4 +7,13 @@ export class Member {
 
     @Column()
     name: string;
+
+    @Column()
+    birthDate: Date;
+
+    @Column()
+    joinDate: Date;
+
+    @Column()
+    grade: number
 }
